@@ -1,5 +1,5 @@
 <template>
-  <div>我是404页面</div>
+  <div>404div</div>
 </template>
 <style>
 

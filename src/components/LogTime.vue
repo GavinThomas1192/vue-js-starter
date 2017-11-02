@@ -2,7 +2,7 @@
     <div class="form-horizontal">
     <div class="form-group">
       <div class="col-sm-6">
-        <label>日期</label>
+        <label>date</label>
         <input
           type="date"
           class="form-control"
@@ -11,7 +11,7 @@
         />
       </div>
       <div class="col-sm-6">
-        <label>时间</label>
+        <label>hours</label>
         <input
           type="number"
           class="form-control"
@@ -22,7 +22,7 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <label>备注</label>
+        <label>comments</label>
         <input
           type="text"
           class="form-control"
@@ -31,8 +31,8 @@
         />
       </div>
     </div>
-    <button class="btn btn-primary" @click="save()">保存</button>
-    <router-link to="/time-entries" class="btn btn-danger">取消</router-link>
+    <button class="btn btn-primary" @click="save()">save</button>
+    <router-link to="/time-entries" class="btn btn-danger">timeEntries</router-link>
     <hr>
   </div>
 </template>

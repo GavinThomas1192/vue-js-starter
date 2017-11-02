@@ -5,30 +5,27 @@ import Doctors from '../components/Doctors.vue'
 import TodoList from '../components/TodoList.vue'
 import NotFound from '../components/404'
 
-export default  {
+export default {
   routes: [
     {
-        path: '/',
-        component: Home
-    },{
-        path: '/home',
-        component: Home
-    },{
-         path: '/time-entries',
-         component: TimeEntries,
-         children: [{
-            path: 'log-time',
-            component: LogTime
-         }]
-    },{
-      path: '/doctors',
-      component : Doctors
-    },{
+      path: '/',
+      component: Home
+    }, {
+      path: '/home',
+      component: Home
+    }, {
+      path: '/time-entries',
+      component: TimeEntries,
+      children: [{
+        path: 'log-time',
+        component: LogTime
+      }]
+    }, {
       path: '/todoList',
       component: TodoList
-    },{
-      path : '*',
-      component : NotFound
+    }, {
+      path: '*',
+      component: NotFound
     }]
 }
 

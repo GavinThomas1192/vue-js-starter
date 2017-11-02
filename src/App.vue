@@ -4,12 +4,12 @@
       <div class="container">
           <a class="navbar-brand" href="#">
               <i class="glyphicon glyphicon-time"></i>
-              计划板
+              planning board
           </a>
           <ul class="nav navbar-nav">
-            <li><router-link to="/home">首页</router-link></li>
-            <li><router-link to="/time-entries">计划列表</router-link></li>
-            <li><router-link to="/doctors">doctors</router-link></li>
+            <li><router-link to="/home">home</router-link></li>
+            <li><router-link to="/time-entries">time-entries</router-link></li>
+            <!-- <li><router-link to="/doctors">doctors</router-link></li> -->
             <li><router-link to="/todoList">todoList</router-link></li>
           </ul>
       </div>
